@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLama 3 in Browser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Web LLM</h1>
+
+    <div class="chat-container" id="chatContainer">
+        <div class="message sent">
+            <div class="message-content">
+                <p>Hello! How are you?</p>
+            </div>
+        </div>
+
+        <div class="message received">
+            <div class="message-content">
+                <p>I'm good, thanks! How about you?</p>
+            </div>
+        </div>
+        <!-- Add more messages here -->
+    </div>
+    <div class="input-container">
+        <input type="text" class="textbox" id="prompt" placeholder="Type a message">
+        <button class="btn" id="send">Send</button>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

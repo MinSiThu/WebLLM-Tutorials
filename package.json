@@ -1,0 +1,17 @@
+{
+  "name": "webllm-tutorials",
+  "version": "1.0.0",
+  "description": "llm in browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WebLLM"
+  ],
+  "author": "MinSiThu",
+  "license": "MIT",
+  "dependencies": {
+    "@mlc-ai/web-llm": "^0.2.46"
+  }
+}
